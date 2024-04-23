@@ -3,7 +3,7 @@
     "description": "Poxsoft package for laravel projects",
     "keywords": ["laravel", "lucendi", "poxsoft"],
     "type": "library",
-    "license": "GPL-2.0-only",
+    "license": "GPL-2.0-only ",
     "authors": [
         {
             "name": "Jose Wilson",
