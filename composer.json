@@ -1,0 +1,40 @@
+{
+    "name": "lucendi/laravel",
+    "description": "Poxsoft package for laravel projects",
+    "keywords": ["laravel", "lucendi", "poxsoft"],
+    "type": "library",
+    "license": "GPL-2.0 license",
+    "authors": [
+        {
+            "name": "Jose Wilson",
+            "email": "jose.dev.web@gmail.com",
+            "homepage": "https://wilsapp.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lucendi\\": "src/"
+        },
+        "files": [
+            "./helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lucendi\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.2|~8.0.0|~8.1.0|~8.2.0|~8.3.0",
+        "laravel/framework": "^10.0|^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lucendi\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
