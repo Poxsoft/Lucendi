@@ -10,8 +10,7 @@
 Welcome to the **lucendi/laravel**.  package. This package is designed to offer advanced features and facilitate integration into Laravel projects.
 
 - [Installation](#1)
-- [Installation Manual for Laravel](#2)
-- [Installation Manual for Projects Unrelated to Laravel](#3)
+- [Manual for Laravel](#2)
 
 ## Feature
 - Feature 1: Easy and quick configuration.
@@ -19,7 +18,6 @@ Welcome to the **lucendi/laravel**.  package. This package is designed to offer 
 - Feature 3: Facilitates the development of custom projects by using plugins with specific functions.
 - Feature 4: Allows the Laravel community to create and distribute their own plugins, both free and paid.
 - Feature 5: Opens new opportunities for companies and freelancers who develop software using the Laravel framework.
-- Feature 6: Developed in PHP, enabling its use on platforms other than Laravel.
 
 ## Installation {#1}
 To install the package, you can use Composer with the following command:
@@ -37,22 +35,6 @@ Declare the following environment variables in your Laravel .env file.
 LARAPOX_APP_KEY=
 LARAPOX_APP_SECRET=
 LARAPOX_APP_USERNAME=
-```
-
-## For projects unrelated to Laravel (PHP). {#3}
-Go to 'src/Lucendi.php' downloaded by Composer and replace the constructor with the following code:
-
-```bash
-public function __construct()
-{
-    $this->apiURL = 'https://www.larapox.com/';
-    $this->apiKey = "LARAPOX_APP_KEY";
-    $this->apiSecret = "LARAPOX_APP_SECRET";
-    $this->apiUser = "LARAPOX_APP_USERNAME";
-    if (empty($this->apiKey) || empty($this->apiSecret) || empty($this->apiUser)) {
-        throw new \Exception("Las claves de la API no están configuradas correctamente.");
-    }
-}
 ```
 
 Developed by [Poxsoft](http://poxsoft.com)
