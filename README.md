@@ -4,7 +4,7 @@
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/lucendi/laravel"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/lucendi/laravel"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/lucendi/laravel"><img src="https://img.shields.io/badge/any_text-you_like-blue" alt="License"></a>
+<a href="https://packagist.org/packages/lucendi/laravel"><img src="https://img.shields.io/badge/license-GPL_2.0_license-green" alt="License"></a>
 </p>
 
 Bienvenido al paquete **lucendi/laravel**. Este paquete está diseñado para proporcionar características avanzadas y facilitar la integración en proyectos Laravel.
