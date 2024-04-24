@@ -9,8 +9,8 @@
 
 Welcome to the **lucendi/laravel**.  package. This package is designed to offer advanced features and facilitate integration into Laravel projects.
 
-- [Installation](#1)
-- [Manual for Laravel](#2)
+- [Installation](#installation)
+- [Manual for Laravel](#for-Laravel-projects)
 
 ## Feature
 - Feature 1: Easy and quick configuration.
@@ -19,7 +19,7 @@ Welcome to the **lucendi/laravel**.  package. This package is designed to offer 
 - Feature 4: Allows the Laravel community to create and distribute their own plugins, both free and paid.
 - Feature 5: Opens new opportunities for companies and freelancers who develop software using the Laravel framework.
 
-## Installation {#1}
+## Installation
 To install the package, you can use Composer with the following command:
 
 ```bash
@@ -28,7 +28,7 @@ composer require lucendi/laravel
 
 Sign up for free at [Larapox](http://larapox.com/login),  to get your user and access token.
 
-## For Laravel projects {#2}
+## For Laravel projects
 Declare the following environment variables in your Laravel .env file.
 
 ```bash
