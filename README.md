@@ -12,6 +12,6 @@ Para instalar el paquete, puedes usar Composer con el siguiente comando:
 
 ```bash
 composer require lucendi/laravel
-
+```
 
 [enlace en línea](http://poxsoft.com)
