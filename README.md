@@ -9,6 +9,10 @@
 
 Welcome to the **lucendi/laravel**.  package. This package is designed to offer advanced features and facilitate integration into Laravel projects.
 
+[Installation](#1)
+[Installation Manual for Laravel](#2)
+[Installation Manual for Projects Unrelated to Laravel](#3)
+
 ## Feature
 - Feature 1: Easy and quick configuration.
 - Feature 2: Repository of plugins specifically designed and developed for Laravel starting from version 10 onwards.
@@ -17,7 +21,7 @@ Welcome to the **lucendi/laravel**.  package. This package is designed to offer 
 - Feature 5: Opens new opportunities for companies and freelancers who develop software using the Laravel framework.
 - Feature 6: Developed in PHP, enabling its use on platforms other than Laravel.
 
-## Installation
+## Installation {#1}
 To install the package, you can use Composer with the following command:
 
 ```bash
@@ -26,7 +30,7 @@ composer require lucendi/laravel
 
 Sign up for free at [Larapox](http://larapox.com/login),  to get your user and access token.
 
-## For Laravel projects
+## For Laravel projects {#2}
 Declare the following environment variables in your Laravel .env file.
 
 ```bash
@@ -35,7 +39,7 @@ LARAPOX_APP_SECRET=
 LARAPOX_APP_USERNAME=
 ```
 
-## For projects unrelated to Laravel (PHP).
+## For projects unrelated to Laravel (PHP). {#3}
 Go to 'src/Lucendi.php' downloaded by Composer and replace the constructor with the following code:
 
 ```bash
