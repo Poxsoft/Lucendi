@@ -9,9 +9,9 @@
 
 Welcome to the **lucendi/laravel**.  package. This package is designed to offer advanced features and facilitate integration into Laravel projects.
 
-[Installation](#1)
-[Installation Manual for Laravel](#2)
-[Installation Manual for Projects Unrelated to Laravel](#3)
+- [Installation](#1)
+- [Installation Manual for Laravel](#2)
+- [Installation Manual for Projects Unrelated to Laravel](#3)
 
 ## Feature
 - Feature 1: Easy and quick configuration.
