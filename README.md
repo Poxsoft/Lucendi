@@ -7,7 +7,7 @@
     <a href="https://packagist.org/packages/lucendi/laravel"><img src="https://img.shields.io/badge/license-GPL_2.0-green" alt="License"></a>
 </p>
 
-Bienvenido al paquete **lucendi/laravel**. Este paquete está diseñado para proporcionar características avanzadas y facilitar la integración en proyectos Laravel.
+Welcome to the **lucendi/laravel**.  package. This package is designed to offer advanced features and facilitate integration into Laravel projects.
 
 ## Feature
 - Feature 1: Easy and quick configuration.
@@ -24,13 +24,31 @@ To install the package, you can use Composer with the following command:
 composer require lucendi/laravel
 ```
 
+Sign up for free at [Larapox](http://larapox.com/login),  to get your user and access token.
+
 ## For Laravel projects
-Sign up for free at [Larapox](http://larapox.com/login),  to get your user and access token. Declare the following environment variables in your Laravel .env file.
+Declare the following environment variables in your Laravel .env file.
 
 ```bash
 LARAPOX_APP_KEY=
 LARAPOX_APP_SECRET=
 LARAPOX_APP_USERNAME=
+```
+
+## For projects unrelated to Laravel (PHP).
+Go to 'src/Lucendi.php' downloaded by Composer and replace the constructor with the following code:
+
+```bash
+public function __construct()
+{
+    $this->apiURL = 'https://www.larapox.com/';
+    $this->apiKey = "LARAPOX_APP_KEY";
+    $this->apiSecret = "LARAPOX_APP_SECRET";
+    $this->apiUser = "LARAPOX_APP_USERNAME";
+    if (empty($this->apiKey) || empty($this->apiSecret) || empty($this->apiUser)) {
+        throw new \Exception("Las claves de la API no están configuradas correctamente.");
+    }
+}
 ```
 
 Developed by [Poxsoft](http://poxsoft.com)
