@@ -4,7 +4,7 @@
     <a href="https://github.com/Poxsoft/lucendi"><img src="https://img.shields.io/badge/Github-Free_code-red?logo=github&logoColor=white" alt="Build Status"></a>
     <a href="https://packagist.org/packages/lucendi/laravel"><img src="https://img.shields.io/badge/downloads-1M-green" alt="Total Downloads"></a>
     <a href="https://packagist.org/packages/lucendi/laravel"><img src="https://img.shields.io/badge/packagist-v1.0.0-blue" alt="Latest Stable Version"></a>
-    <a href="https://packagist.org/packages/lucendi/laravel"><img src="https://img.shields.io/badge/license-GPL_2.0-green" alt="License"></a>
+    <a href="https://github.com/Poxsoft/Lucendi?tab=GPL-2.0-1-ov-file"><img src="https://img.shields.io/badge/license-GPL_2.0-green" alt="License"></a>
 </p>
 
 Welcome to the **lucendi/laravel**.  package. This package is designed to offer advanced features and facilitate integration into Laravel projects.
@@ -36,5 +36,10 @@ LARAPOX_APP_KEY=
 LARAPOX_APP_SECRET=
 LARAPOX_APP_USERNAME=
 ```
+
+## Publish and promote plugins
+In an effort to expand and encourage the Laravel developer community, we offer a platform that allows users to publish free plugins and sell directly on our Larapox platform. Registration is completely free for businesses and freelancers.
+- [Lucendi for businesses](http://larapox.com/login)
+- [Lucendi for freelancers](http://larapox.com/login)
 
 Developed by [Poxsoft](http://poxsoft.com)
