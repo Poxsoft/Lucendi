@@ -1,7 +1,7 @@
 {
-    "name": "lucendi/laravel",
-    "description": "Poxsoft package for laravel projects",
-    "keywords": ["laravel", "larapox", "lucendi", "poxsoft", "CMS"],
+    "name": "poxsoft/lucendi",
+    "description": "Lucendi package for PHP projects",
+    "keywords": ["Laravel", "Larapox", "PHP", "Lucendi", "Poxsoft", "CMS"],
     "type": "library",
     "license": "GPL-2.0-only",
     "authors": [
